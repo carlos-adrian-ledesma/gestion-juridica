@@ -127,6 +127,29 @@ Revisá [ROADMAP.md](ROADMAP.md), [CHANGELOG.md](CHANGELOG.md) y [recomendacione
 
 ---
 
+## 8. Private Full Source — Professional Edition
+
+**ABOGADO Y ASOCIADOS** is a professional desktop legal management software project developed using Python, Tkinter and SQLite.
+
+The complete professional application (V1.0.6 RC1) is proprietary and maintained separately from this public repository. Its full source code, advanced modules, development tools and internal implementation remain private.
+
+### What this public portfolio demonstrates
+
+- **Functional DEMO:** An independent desktop application with synthetic data and an isolated SQLite database.
+- **Software engineering:** Reviewable Python source code, database operations, business rules and automated regression tests.
+- **Technical documentation:** Architecture, implementation decisions, testing procedures and development roadmap.
+- **Full product showcase:** Eight anonymized screenshots captured from the professional application, including its Dashboard, PDF workspace, legal document editor, case management, scheduling and financial modules.
+
+### Public DEMO vs. Professional Edition
+
+The publicly available DEMO intentionally provides a reduced feature set. Advanced legal document workflows, PDF management, administrative tools and other professional modules belong to the separate proprietary edition.
+
+**Authorized Technical Review:** Access to the complete source code may be considered for recruiters, hiring managers and authorized technical evaluators upon request, subject to appropriate access conditions.
+
+**Development Status:** The professional edition is undergoing controlled technical validation. It has not been approved for managing real legal cases or commercial deployment.
+
+**Intellectual Property:** © 2026 QuintaDimensión Tecnología / Carlos Adrián Ledesma. All rights reserved.
+
 **Autor:** Carlos Adrián Ledesma · **QuintaDimensión Tecnología**  
 [GitHub @carlos-adrian-ledesma](https://github.com/carlos-adrian-ledesma)  
 © 2026 QuintaDimensión Tecnología. **Todos los derechos reservados.**
