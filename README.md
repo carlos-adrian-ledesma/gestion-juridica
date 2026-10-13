@@ -1,7 +1,12 @@
+[README.md](https://github.com/user-attachments/files/33391022/README.md)
 # ABOGADO Y ASOCIADOS — Legal Management Software
 
 **Engineering Portfolio · Runnable Public DEMO · Private Full Product Showcase**  
 **QuintaDimensión Tecnología** · Desktop Python / Tkinter / SQLite · 2026
+
+[![Demo source verification](https://github.com/carlos-adrian-ledesma/gestion-juridica/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/carlos-adrian-ledesma/gestion-juridica/actions/workflows/ci.yml)
+
+**DEMO pública:** `v1.0.0-demo.1` (código fuente, no `.exe`) · [Releases](https://github.com/carlos-adrian-ledesma/gestion-juridica/releases) · [Resultados de CI](https://github.com/carlos-adrian-ledesma/gestion-juridica/actions)
 
 [English project guide](docs/README_EN.md) · [Guía para reclutadores](RECRUITER_GUIDE.md) · [Arquitectura](ARCHITECTURE.md) · [Pruebas](TESTING.md) · [Ejemplos de código](CODE_SAMPLES.md)
 
@@ -96,7 +101,7 @@ python -m unittest discover -s tests -v
 python -m compileall -q demo.py app tests
 ```
 
-**Validación local de la versión de este repositorio:** 16/16 pruebas unitarias aprobadas en Linux; capturas generadas ejecutando la GUI con Xvfb. La ejecución de CI para Windows y la validación manual del lanzador `.bat` todavía no se acreditan. Los resultados futuros de GitHub Actions se observarán en [GitHub Actions](https://github.com/carlos-adrian-ledesma/gestion-juridica/actions) una vez que el repositorio exista y contenga el workflow.
+**Verificación registrada:** 16/16 pruebas unitarias aprobadas durante la preparación local (Linux), con capturas de la GUI tomadas mediante Xvfb. GitHub Actions ejecutó correctamente **las cuatro combinaciones** de compilación de fuentes y tests: Windows y Ubuntu, cada uno con Python 3.11 y 3.12. [Consultar la ejecución verificada del 13/10/2026](https://github.com/carlos-adrian-ledesma/gestion-juridica/actions/runs/38412555905) y el [workflow](.github/workflows/ci.yml). **Esto no acredita** el inicio visual de la aplicación ni el doble clic en `INICIAR_DEMO.bat` en Windows: esas pruebas manuales siguen pendientes. Consultar [TESTING.md](TESTING.md).
 
 ## 6. Transparencia, seguridad y propiedad intelectual
 
@@ -111,7 +116,7 @@ python -m compileall -q demo.py app tests
 | Componente | Estado |
 |---|---|
 | DEMO en código fuente | Disponible, independiente, sin persistencia |
-| Tests SQLite / reglas DEMO | **16/16 PASS** (Linux, ambiente de validación) |
+| Tests SQLite / reglas DEMO | **16/16 PASS** (preparación Linux); CI de sintaxis y tests: **4/4 entornos PASS** (Windows/Linux, Python 3.11/3.12) |
 | Capturas de la edición completa | 8 imágenes auténticas, solo datos sintéticos |
 | Ejecución manual Windows de esta entrega | **Pendiente** |
 | Uso con expedientes jurídicos reales | **NO VALIDADO** |
