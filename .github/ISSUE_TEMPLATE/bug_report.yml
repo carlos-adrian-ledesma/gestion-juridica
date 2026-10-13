@@ -1,0 +1,32 @@
+
+name: Demo bug report
+description: Report a technical issue in the isolated demo (never include legal or personal data)
+title: '[DEMO] '
+labels: ['bug']
+
+body:
+  - type: markdown
+    attributes:
+      value: 'Use only synthetic examples. Do not attach real case files, private data or credentials.'
+
+  - type: input
+    id: environment
+    attributes:
+      label: Operating system and Python version
+      placeholder: 'Windows 11 + Python 3.12'
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce with fake data
+    validations:
+      required: true
+
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected vs actual behavior
+    validations:
+      required: true
