@@ -1,0 +1,2 @@
+# Solo librerías de la distribución estándar de Python 3.10+.
+# No instalar paquetes de terceros. Tkinter debe estar disponible en Python.
